@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>weather app</title>
+</head>
+<body class="">
+  
+    <nav class="navbar bg-dark  navbar-expand-lg py-5">
+        <div class="container">
+            <div class=" d-flex align-items-center">
+                <img src="https://routeweather.netlify.app/images/logo@2x.png" style="width: 70px ;height: 40px;" class="mx-3" alt="">
+                <div class="logo">
+                    <p class="p-0 m-0 "><a class="navbar-brand text-white fs-6" href="#">Weather</a></p>
+                    <small class="text-secondary">tagline goes here</small>
+                </div>
+            </div>
+            <div class="menu border p-3 rounded-circle" id="navbtn">
+              <button type="button" class="btnmenu bg-transparent border-0 ">
+                <i class="fa-solid fa-bars text-white"></i>
+                
+              </button>
+            </div>
+          
+          
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2  justify-content-center w-75">
+              
+              <li class="nav-item">
+                <a class="nav-link  border  rounded-4  p-1 px-4 mx-3 nav-home" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white border  link rounded-4 p-1 px-4 mx-3 " href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white border  link rounded-4 p-1 px-4 mx-3 " href="#">Live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white border  link rounded-4 p-1 px-4 mx-3 " href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white border  link rounded-4 p-1 px-4 mx-3 " href="#">Contact</a>
+              </li>
+                
+               
+            </ul>
+            
+          </div>
+         
+        </div>
+        
+        </div>
+      </nav>
+    <div class=" bg-dark mt-0 d-none" id="scroll">
+      <div class="container p-5">
+      <div class="scroll-menu d-flex justify-content-center flex-column rounded">
+        <p  class="p-3 m-0 text-white text-center scrollhome">Home</p>
+        <p class="p-3 m-0 text-white text-center border-top border-white border-opacity-10 ">News</p>
+        <p class="p-3 m-0 text-white text-center border-top border-white border-opacity-10 ">Live Cameras</p>
+        <p class="p-3 m-0 text-white text-center border-top border-white border-opacity-10 ">Photos</p>
+        <p class="p-3 m-0 text-white text-center border-top border-white border-opacity-10 ">Contact</p>
+        
+      </div> 
+      </div>
+      
+    </div>
+    <section class="bg-dark">
+      <div class="container py-5 ">
+       
+        <div class="inputs  w-100 m-auto bg-dark my-5 d-flex justify-content-between p-2 rounded-5 ">
+          <input type="text" placeholder="find your location..." class=" border-0  p-2  bg-transparent w-100" id="findInput">
+          <button class="btn rounded-5 px-5  " id="btn">Find</button>
+        </div>
+        <div class="row mt-5 " id="row">
+          
+          
+          
+          
+        </div>
+
+
+      </div>
+    </section>
+    <footer class="p-5">
+      <div class="d-flex justify-content-around flex-wrap">
+        <div class="inputs  w-50  bg-dark  d-flex  justify-content-between p-2 rounded-5 text-start">
+          <input type="text" placeholder="find your email to subscribe..." class=" border-0  p-2  bg-transparent w-100">
+          <button class="btn rounded-5 px-2  ">subscribe</button>
+        </div>
+        <div class="icons d-flex m-md-0 mt-4">
+          <div class="icon me-2 bg-dark rounded-circle d-flex justify-content-center align-items-center" style="width: 40px;height: 40px;"><i class="fa-brands fa-facebook fs-6"></i></div>
+          <div class="icon me-2 bg-dark rounded-circle d-flex justify-content-center align-items-center" style="width: 40px;height: 40px;"><i class="fa-brands fa-twitter fs-6"></i></div>
+          <div class="icon me-2 bg-dark rounded-circle d-flex justify-content-center align-items-center" style="width: 40px;height: 40px;"><i class="fa-brands fa-google fs-6"></i></div>
+          <div class="icon me-2 bg-dark rounded-circle d-flex justify-content-center align-items-center" style="width: 40px;height: 40px;"><i class="fa-brands fa-pinterest fs-6"></i></div>
+        </div>
+
+      </div>
+      <p class="text-center my-3 ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </footer>
+    
+      
+    
+    
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
